@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+.container{
+    background-color: #E4F9F5;
+   padding-top: 90px;
+    text-align: center;
+}
+/*Bulutlar başlangıç*/
+.bulut-1{
+    position: absolute;
+    right: 250px;
+    top: 40px;
+}
+.bulut-2{
+    position:absolute;
+    top: 270px;
+    left: 150px;
+}
+/*Bulut bitiş*/
+
+/*Container h1,p başlangıç*/
+.container .baslik-1, .p-1{
+    position: relative;
+    top: 60px;
+    color: #66BFBF;
+}
+.container h1{
+    font-size: 70px;
+    font-family: 'Sacramento', cursive;
+}
+.container p span{
+    text-decoration: underline;
+}
+/*Container h1,p bitiş*/
+
+/*Dağ başlangıç*/
+.container .mountain{
+    padding-top: 30px;
+}
+/*Dağ bitiş*/
+
+/* kiz img,başlık,p başlangıç*/
+.kiz{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.baslik-2{
+    color: #66BFBF;
+    margin-top: 40px;
+    font-size: 35px;
+}
+.p-2{
+    color: #293232;
+    margin-top: 10px;
+}
+hr{
+    border: dotted 6px #eaf6f6;
+    border-bottom: none;
+    width: 4% ;
+    margin: 100px auto;
+}
+/*kiz img,başlık,p bitiş*/
+
+/* Gif başlangıç*/
+.gif{
+position: relative;
+top:10px;
+}
+.gif-1{
+    position: relative;
+    right: 350px;
+    float: right;
+    bottom: 230px;
+    border-radius: 50%;
+}
+
+.skill{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 35px;
+    color: #66BFBF;
+}
+.main-h3{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    color: #66BFBF;
+    position: relative;
+    right: 94px;
+}
+.main-p{
+    width: 40%;
+    position: relative;
+    left: 260px;
+    bottom: 70px;
+}
+.gif-1{
+    position: relative;
+   
+}
+/*Gif bitiş*/
+
+
+/*Team başlangıç*/
+.team-img{
+    position: relative;
+    top: 100px;
+    left: 240px;
+}
+.team-h3{ 
+   position:relative;
+    left: 440px;
+    bottom: 90px;
+    display: inline-block;
+    color: #66BFBF;
+}
+.team-p{
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+    display: inline-block;
+}
+/*Team bitiş*/
+
+/*Footer Başlangıç*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+    padding: 40px;
+}
+footer h2,span,p{
+    margin-bottom: 30px;
+}
+footer h2{
+    font-size: 40px;
+    color: #66BFBF;
+}
+footer span{
+    font-weight: 700;
+    font-size: 18px;
+    color: #376767;
+}
+footer button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #66BFBF;
+    color: white;
+}
+footer button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.links{
+    margin-bottom: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    right: 12px;
+}
+.links a:hover{
+    border-bottom: 2px solid #FDD9DB;
+}
+.hak{
+    margin-top: 20px;
+    color: white;
+}
+/*Footer Bitiş*/
